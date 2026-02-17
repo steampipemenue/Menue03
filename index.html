@@ -1,401 +1,5682 @@
+
+
 <!DOCTYPE html>
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bar 1989 • Getränke & Shisha</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+    <head>
 
-        :root {
-            --accent: #c8102e;
-        }
+        <title></title>
+        <!--slider revolution-->
+         <meta http-equiv="content-type" content="text/html; charset=UTF-8;">
+         <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no" />
+         
+         <!-- Icon fonts -->
+  <link rel="stylesheet" href="../../admin/assets/vendor/fonts/fontawesome.css">
+  <link rel="stylesheet" href="../../admin/assets/vendor/fonts/linearicons.css">
+  <link rel="stylesheet" href="../../admin/assets/vendor/fonts/open-iconic.css">
+  <link rel="stylesheet" href="../../admin/assets/vendor/fonts/pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="../priority-nav-scroller-master/docs/styles/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono|Open+Sans:300,400&display=swap">
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" href="../priority-nav-scroller-master/docs/styles/priority-nav-scroller.css">
 
-        body {
-            font-family: 'Inter', system-ui, sans-serif;
-            background: #0a0a0a;
-            color: #f5f5f5;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
+        <!-- Bootstrap -->
+        <link href="../assets/css/plugins/plugins.css" rel="stylesheet">
+        <!--<link href="../../vendors/font-awesome/css/fontawesome-all.css" rel="stylesheet">-->
 
-        /* Fester Hintergrund mit Parallax */
-        .bg-fixed {
-            background-image: url('https://picsum.photos/id/1015/2000/1200'); /* DEIN BILD HIER: z.B. https://i.imgur.com/deinbild.jpg */
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="../../admin/assets/vendor/libs/smartwizard/smartwizard.css">
+
+        <link href="../assets/css/style_dark.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lancelot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+a.scrollToTop{padding: 0px 0 0 0;}
+
+.product-detail1 {
+  padding: 0px 0px; }
+  .product-detail1 h4 {
+    width: 50%;
+    display: inline-block;
+    margin: 0px; }
+
+  .product-detail1 span {
+    display: block;
+    float: right;
+    }
+    
+    .whitten-10 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0);
+}
+.whitten-9 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.1);
+}
+.whitten-8 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.2);
+}
+.whitten-7 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.3);
+}
+.whitten-6 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.4);
+}
+.whitten-5 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.5);
+}
+.whitten-4 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.6);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.6);
+}
+.whitten-3 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.7);
+}
+.whitten-2 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.8);
+}
+.whitten-1 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 0.9);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,0.9);
+}
+.whitten-0 {
+  box-shadow: inset 2000px 0 0 0 rgba(255, 255, 255, 1.0);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(255,255,255,1.0);
+}
+.darken-10 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0);
+}
+.darken-9 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.1);
+}
+.darken-8 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.2);
+}
+.darken-7 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.3);
+}
+.darken-6 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.4);
+}
+.darken-5 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.5);
+}
+.darken-4 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.6);
+}
+.darken-3 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.7);
+}
+.darken-2 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.8);
+}
+.darken-1 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,0.9);
+}
+.darken-0 {
+  box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 1.0);
+  -webkit-box-shadow: inset 2000px 0px 0px 0px rgba(0,0,0,1.0);
+}
+
+.bg_pictures{
+    position: relative;
+}
+
+.bg_pictures:before{
+content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -10;
+  background: url('../../admin/bild/63914177.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+.nav-scroller-item.is-checked{
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  -webkit-text-decoration: underline solid rgb(128,128,128);
+  text-decoration: underline solid rgb(128, 128, 128, 128);
+  text-transform: uppercase;
+}
+@supports ( -webkit-touch-callout : none) {
+.selector {
+background-attachment:scroll
+}
+}
+
+@supports not ( -webkit-touch-callout : none) {
+.selector {
+background-attachment: fixed;
+}
+}
+</style>
+
+    </head>
+    <body>
+      <div class="darken-2 bg_pictures" style="min-height:100%;">
+
+        <div id="preloader">
+            <div id="preloader-inner"></div>
+        </div><!--/preloader-->
+
+
+      <!--==============end page header============-->
+        <div class="space-70"></div>
+
+       <div class="container">
+         <div class="text-center">
+                            <div class="figure-img img-fluid"><img src="../../admin/logo/56525220.png" width="300" height="auto"></div>
+                            <div class="space-10"></div>
+
+                            <div class="space-10"></div>
+        </div>
+        <div class="nav-scroller" style="background: none; border: none; text-align: center; border-top: 1px solid #e4e29a; border-bottom: 1px solid #e4e29a; height: 50px;">
+
+<nav class="nav-scroller-nav" style="margin-left: 6%; width: 88%;">
+<ul class="nav-scroller-content">
+  
+            
+                <!--<li data-filter="*">Alle</li>-->
+                <li data-filter=".Getränke" class="nav-scroller-item is-checked" style="font-family: Saira Condensed; border: none; font-color: white">Getränke</li>
+  <li data-filter=".Shisha" class="nav-scroller-item" style="font-family: Saira Condensed; border: none; font-color: white" >Shisha</li>
+
+
+
+</ul>
+</nav>
+
+<button class="nav-scroller-btn nav-scroller-btn--left" aria-label="Scroll left" style="background: none; border: none; margin-left: -4%; top: 56%;">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16" style="stroke-width: 1; stroke: white">
+  <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+</svg>
+</button>
+
+<button class="nav-scroller-btn nav-scroller-btn--right" aria-label="Scroll right" style="background: none; border: none; margin-right: -4%; margin-left: -4%; top: 56%" >
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16" style="stroke-width: 1; stroke: white">
+  <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+</svg>
+</button>
+
+</div>
+                
+
+<div id="divMenuContainer" class="">
+<div class="row menu-filter-items">
+
+        <div class="col-sm-12 menu-item text-center a">
+                   <div class="menu-box clearfix">
+                        <div class="menu-content">
+                            <div class="product-detail1" style="margin-top:20px;margin-bottom:-13px;">
+                                <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128); -webkit-text-decoration: underline solid rgb(128,128,128);  line-height:1.6; text-underline-position:under; margin-top:20px; font-family:Anton; font-size:24px;"></div>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+
+</div>
+
+<div class="Getränke row menu-filter-items x">
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Softdrinks                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Lieler Classic <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 3,00<br>                                   0,75 l | 7,50<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Sprudel</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Lieler Natur <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 3,00<br>                                   0,75 l | 7,50<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Still</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Elephant Bay Ice Tea <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Peach, Blueberry, Lemon, Melon, Pome, Rasp, Rose, Mango, GreanTea, Passion </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Elephant Bay LEMONADE <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1</small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Mandarin, Exotic, Lime Mint, Pink Grapefruit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Coca Cola <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Coca Cola Zero <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Fanta <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sprite <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Paulaner Spezi <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,5 l | 4,80<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Moloko <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">28 Black Acai <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Red Bull <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Red Bull Zero <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Red Bull White Edition  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,20<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Schweppes <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+mit Antioxidationsmitteln&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chininhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,3,14</small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Bitter Lemon, Tonic Water, Ginger Ale, Wildberry</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Säfte / Nektar                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Apfelsaft <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Orangensaft <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Johannisbeernektar <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Bananennektar <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Maracujanektar <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Kirschnektar <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Ananassaft <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cranberrysaft <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">KIBA <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Kirsch-Banane</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Diverse Schorlen <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,4 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Flaschen Biere                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Heineken <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Fürstenberg <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Natur Radler, Grapefruit</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Fürstenberg Alkoholfrei <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Desperados <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,33 l | 4,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Paulaner  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,5 l | 4,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Weissbier Naturtrüb</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cola Weizen <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Weizen
+                             ">b</small> <small></small>
+                            <span style="text-align: right;"> 0,5 l | 4,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Biere vom Fass                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Fürstenberg Pils <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+glutenhaltiges Getreide
+Gerste
+                             ">a,e</small> <small></small>
+                            <span style="text-align: right;"> 0,3 l | 4,00<br>                                   0,4 l | 4,50<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Radler Süss / Sauer <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+glutenhaltiges Getreide
+Gerste
+                             ">a,e</small> <small></small>
+                            <span style="text-align: right;"> 0,3 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Longdrinks                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Bacardi Coke <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Campari Orange <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Captain Morgan Coke <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Havana 3 J. Coke <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jack Daniels Coke <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Apple Jack <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jim Beam Coke  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jägermeister Bull <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  9,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Licor 43 mit Milch <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milch und Milcherzeugnisse
+                             ">l</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Gin Tonic  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+chininhaltig&nbsp;
+
+
+
+
+
+
+
+
+                             ">14</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Malibu Maracuja  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Wodka Bull <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  9,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Wodka Lemon <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+mit Antioxidationsmitteln&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chininhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">3,14</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Wodka Wildberry <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1</small> <small></small>
+                            <span style="text-align: right;">  7,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cuba Libre <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koffeinhaltig&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1,13</small> <small></small>
+                            <span style="text-align: right;">  8,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Weine                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Weißwein <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;"> 0,1 l | 3,00<br>                                   0,25 l | 4,80<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Gutedel QbA trocken</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Rotwein <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;"> 0,1 l | 3,50<br>                                   0,25 l | 5,50<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Spätburgunder Rotwein QbA trocken</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Rosé <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;"> 0,1 l | 3,50<br>                                   0,25 l | 5,50<br>                                   </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Spätburgunder Weissherbst QbA trocken</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Weinschorle Weiss <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Weinschorle Rot <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;"> 0,25 l | 4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Shots                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Berliner Luft <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Saurer Joster <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sierra Tequila  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Silver, Reposado</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jägermeister <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Wodka <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sambucca <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Spritz                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Aperol Spritz <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+chininhaltig&nbsp;
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x,14</small> <small></small>
+                            <span style="text-align: right;">  6,90<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Lillet White Peach <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1</small> <small></small>
+                            <span style="text-align: right;">  6,90<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Hugo <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Schwefeldioxid und Sulfite
+                             ">x</small> <small></small>
+                            <span style="text-align: right;">  6,90<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Lillet Wildberry <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             ">1</small> <small></small>
+                            <span style="text-align: right;">  6,90<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Rosato Duo <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  6,90<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Liköre                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Baileys Irish Cream <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milch und Milcherzeugnisse
+                             ">l</small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 5,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Disaronno Amaretto <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mandeln
+                             ">n</small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 5,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Frangelico  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="mit Farbstoff&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Haselnüsse
+                             ">o,1</small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 5,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Flaschen                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Moet & Chandon Brut Impérial  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,75 l  | 120,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Moet & Chandon Ice Rose Impérial  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,75 l  | 160,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Three Sixty  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 90,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Grey Goose <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 130,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Belvedere Pur Vodka <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 130,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Bombay Sapphire <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 90,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Hendricks Gin <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 100,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Monkeys 47 Dry Gin <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,5 l | 90,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jim Beam <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 70,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jack Daniels <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 0,7 l | 100,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Whiskey / Cognac                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Chivas Regal <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 5,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">12 Years</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jim Beam <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 4,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Jack Daniels <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 5,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Hennessy <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 6,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Laphroaig 10 Years <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;"> 4 cl | 7,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Cocktails                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">SKARA <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Zitronensaft, Kirschsaft, Gin, Rohrzuckersirup, Schweppes Wildberry</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Caipirinha <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Mojito <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Moscow Mule <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Long Island Iced Tea <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  9,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Peach Sunrise <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Zombie <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  9,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sours <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Whiskey, Gin, Vodka, Aperol, Amaretto, 43</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Swimming Pool <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Pina Colada <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milch und Milcherzeugnisse
+                             ">l</small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Baileys Colada <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sex on the Beach <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  8,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Cocktails Alkoholfrei                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Ipanema  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  7,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Moskito <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  7,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Coconut Kiss <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Milch und Milcherzeugnisse
+                             ">l</small> <small></small>
+                            <span style="text-align: right;">  7,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Tee                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Darjeeling <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Zart-blumiger Schwarztee mit feinmildem Geschmack. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Türkischer Apfeltee <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Ein Hauch von türkischem Basar, heiß und kalt ein fruchtigsüßes Vergnügen.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Waldbeere <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Alle verlockenden Früchte des Waldes vereinen sich in dieser fruchtig-intensiven Mischung.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Grüner Tee <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Unvermentierte traditionelle Teespezialität aus China mit Herbstfrischem Geschmack.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Pfefferminze <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Aus reiner Mitcham-Minze, angenehm erfrischend.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Kamille <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Wohltuender und bekömmlicher Tee aus einer der bekanntesten Heilpflanzen. </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Rooibos Vanille <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  4,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Zart-aromatische Rooibos aus Südafrika trifft auf das weiche Aroma der Vanille.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Getränke row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Kaffee                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Espresso <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  2,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Kaffee <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  3,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cappuccino <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  3,50<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Chai Latte  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  3,80<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Vanille, Zimt</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> <div class="row menu-filter-items">
+
+        <div class="col-sm-12 menu-item text-center a">
+                   <div class="menu-box clearfix">
+                        <div class="menu-content">
+                            <div class="product-detail1" style="margin-top:20px;margin-bottom:-13px;">
+                                <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128); -webkit-text-decoration: underline solid rgb(128,128,128);  line-height:1.6; text-underline-position:under; margin-top:20px; font-family:Anton; font-size:24px;"></div>
+                            </div>
+                        </div>
+                    </div>
+             </div>
+
+</div>
+
+<div class="Shisha row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Classics                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Traube Minze  <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Doppel Apfel <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Falim Red <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cold Lime <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Cold Blue <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Mango Tango <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Love 66 <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Wasser- und Honigmelone mit Maracuja</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Ananas <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Shisha row menu-filter-items x">
+            <div class="col-sm-12  menu-item b">
+             <div class="menu-box clearfix">
+                        <div class="menu-content menu-section-title">
+                            <div class="product-detail1" style="margin-top:20px;">
+                                 <div class="margin-b-20" style="text-decoration: underline solid rgb(128,128,128);  line-height: 1.6; -webkit-text-decoration: underline solid rgb(128,128,128); text-underline-position:under; font-family:Anton; font-size:24px; color:#e4e29a;">Premium                                                   </div>
+                            </div>
+                        </div>
+              </div>
+            </div>
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Bruderherz <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Drei Mal im Leben <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Ice Kaktus <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">African Queen <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Früchtemix</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Black Nana <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Schwarze Traube</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Persischer Apfel <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Grüner Apfel (ohne Anis geschmack)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">FFM / 069 <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Erdbeere und Waldbeere Menthol</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Okolom Cranberry <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Cranberry, Holunder, Ingwer und Zitrone</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Blaulicht <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Blaubeeren und Beerenmix</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Hamburg <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Erdbeere, Himbeere, Blaubeere, Johannisbeere und Brombeere</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">I love Hamburg <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Beerenmix mit Wasser- und Honigmelone</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Black Box <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Acai, Guarana und Zitrone</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Sparkling Peaz <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Pfirsich Eistee</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">Le Chill <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Zitrone und Minze</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+
+                  <div class="col-sm-6 margin-b-10 menu-item d">
+                    <div class="menu-box clearfix">
+                        <div class="menu-content" style="border-bottom: 1px dashed #eee;">
+
+                            <div class="product-detail1" style="font-family:Saira Condensed; font-size:18px;">WaMe Chill <small style="font-size:10px;vertical-align: super;color:#ccc;" data-toggle="tooltip" data-placement="bottom" data-state="warning" title="
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             "></small> <small></small>
+                            <span style="text-align: right;">  15,00<br>                                                                      </span>
+                            <div style="text-align: left;font-family:Arial; font-size:13px;">Wassermelone und Minze</div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end col-->
+
+
+ </div> 
+<div class="Shisha row menu-filter-items x">
+ </div> 
+<div class="Shisha row menu-filter-items x">
+ </div> 
+<div class="Shisha row menu-filter-items x">
+ </div>         </div>
+</div>
+         <!-- (empty($_POST['save']))-->
+
+
+<style>
+.modal .fade .show {
+    background-color: #191b1d;
+    opacity: 1;
+}
+</style>
+<script type="text/javascript">
+    $(window).on('load', function() {
+
+        $('#myModalPopup').modal({
+                           backdrop: 'static',
+                           keyboard: true,
+                           show: false,
+                           focus : false
+                   });
+
+           setTimeout(function(){
+           $('#myModalPopup').modal('show'); },
+           3000);
+
+    });
+
+
+</script>
+
+
+<!-- / Modal template -->
+
+
+        <div class="space-50"></div>
+
+
+
+
+
+
+
+        <!-- start footer section -->
+   <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                   <!-- social media link -->
+                    <div class="col-md-12 col-sm-12 text-center" style="margin-left:-10px;">
+                                                      <a href="https://de-de.facebook.com/steampipe.de" target="_blank"><i class="fab fa-facebook-f" style="color:#fff;"></i></a>
+                                                    <a href="https://www.instagram.com/steampipe.de/" target="_blank"><i class="fab fa-instagram" style="color:#fff;"></i></a>
+                                             </div>
+                   <!-- end social media link -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                            <span class="text-small text-uppercase letter-spacing-1" style="font-size:8px;">created with</span>
+                    </div>
+                <div class="col-md-12 col-sm-12 text-center">
+                    <a href="https://www.myqards.de" target="_blank"><span class="text-small text-uppercase letter-spacing-1" style="font-size:12px; color:#333; padding-right:20px;">
+                                          <img src="../myqardslogowhite.png" style="width: 120px">
+                                        </span></a>
+                </div>
+            </div>
+            </div>
+        </div>
+<div id="back-to-top" class="back-to-top">
+<!--back to top-->
+<a href="#" class="scrollToTop"><i class="ion-android-arrow-up"></i></a>
+<!--back to top end-->
+</div>
+        <br>
+    </footer>
+    <!-- end footer section -->
+
+   <div class="space-50"></div>
+</div>
+<style>
+
+@media only screen and (orientation:landscape){
+   .mobile-sticky {
+            display: none;
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            filter: brightness(0.4) contrast(1.2);
+            bottom: 0;
+            left: 25%;
+            width: 320px;
+            z-index: 99999;
         }
 
-        /* Parallax Layer */
-        .parallax-layer {
-            position: relative;
-        }
-
-        .header-bg {
-            background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.95));
-        }
-
-        .menu-container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Tabs für Mobile */
-        .tabs {
-            display: flex;
-            background: rgba(255,255,255,0.05);
-            border-radius: 9999px;
-            padding: 4px;
-            margin: 20px auto;
-            max-width: 320px;
-        }
-
-        .tab {
-            flex: 1;
-            padding: 12px 24px;
-            text-align: center;
-            font-weight: 600;
-            border-radius: 9999px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .tab-active {
-            background: white;
-            color: #0a0a0a;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        }
-
-        /* Sections */
-        .section {
-            margin-bottom: 60px;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: all 0.6s ease;
-        }
-
-        .section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .section h2 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.2rem;
-            color: var(--accent);
-            margin-bottom: 30px;
-            text-align: center;
-            position: relative;
-        }
-
-        .section h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 60px;
-            height: 3px;
-            background: var(--accent);
-        }
-
-        .item {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 16px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
-        }
-
-        .item:last-child {
-            border-bottom: none;
-        }
-
-        .item-details {
-            flex: 1;
-        }
-
-        .item-name {
-            font-weight: 600;
-            font-size: 1.1rem;
-        }
-
-        .item-desc {
-            font-size: 0.85rem;
-            color: #999;
-            margin-top: 2px;
-        }
-
-        .item-price {
-            font-weight: 700;
-            color: #fff;
-            white-space: nowrap;
-            font-size: 1.1rem;
-        }
-
-        /* Footer */
-        .footer {
-            background: rgba(0, 0, 0, 0.9);
-            padding: 30px 20px;
-            text-align: center;
-            font-size: 0.85rem;
-            color: #888;
-        }
-
-        /* Scroll Indicator */
-        .scroll-indicator {
+}
+@media only screen and (orientation:portrait){
+.mobile-sticky {
+            display: none;
             position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: bounce 2s infinite;
+            bottom: 0;
+            left: -6%;
+            width: 380px;
+            z-index: 99999;
         }
+}
+@media screen and (max-width: 768px) {
 
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateX(-50%) translateY(0); }
-            40%, 60% { transform: translateX(-50%) translateY(-10px); }
+            /*display mobile sticky on mobile */
+            .mobile-sticky {
+            display: block;
+            }
+
+            /* mobile sticky styles */
+
+            .mobile-sticky ul {  /*
+                margin: 0;
+                padding: 0;   */
+            }
+
+            .inner-sticky li {
+                /*float: left;
+                width: 25%;
+                text-align: center;
+                background: #987852;
+                padding: 10px 0;
+                list-style-type: none;  */
+            }
+
+            .inner-sticky .fa, .inner-sticky a, nav#slide-menu a {
+              /*  color: #fff;   */
+            }
         }
-    </style>
-</head>
-<body>
-    <!-- Fixed Background -->
-    <div class="bg-fixed"></div>
+</style>
+<!-- HTML -->
 
-    <!-- Content -->
-    <div class="relative z-10 menu-container pt-12">
+<div class="mobile-sticky" style="">
+    <div class="inner-sticky" style="">
 
-        <!-- Header -->
-        <div class="text-center mb-12 parallax-layer">
-            <div class="inline-flex items-center gap-3 bg-white/10 backdrop-blur-md px-8 py-3 rounded-3xl border border-white/20">
-                <i class="fas fa-glass-martini-alt text-3xl text-amber-400"></i>
-                <div>
-                    <h1 class="text-4xl font-bold tracking-tighter text-white" style="font-family: 'Playfair Display', serif;">BAR 1989</h1>
-                    <p class="text-xs uppercase tracking-[3px] text-amber-300 -mt-1">GETRÄNKE • SHISHA • GENUSS</p>
-                </div>
-            </div>
-        </div>
+<div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+  <div class="carousel-inner">
 
-        <!-- Mobile Tabs -->
-        <div class="tabs mx-auto">
-            <div id="tab-drinks" class="tab tab-active" onclick="switchTab(0)">GETRÄNKE</div>
-            <div id="tab-shisha" class="tab" onclick="switchTab(1)">SHISHA</div>
-        </div>
 
-        <!-- Drinks Content -->
-        <div id="content-drinks" class="tab-content">
 
-            <!-- Alkoholfreie Getränke -->
-            <div class="section visible">
-                <h2>Alkoholfreie Getränke</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Lieler Classic</div><div class="item-desc">0,25 l</div></div><div class="item-price">3,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Lieler Classic</div><div class="item-desc">0,75 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Lieler Natur (Still)</div></div><div class="item-price">3,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Elephant Bay Ice Tea</div><div class="item-desc">0,33 l • Peach, Blueberry, Lemon, Melon, Pome, Rasp, Rose, Mango, GreenTea, Passion</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Elephant Bay LEMONADE</div><div class="item-desc">0,33 l • Mandarin, Exotic, Lime Mint, Pink Grapefruit</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Coca Cola</div><div class="item-desc">0,33 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Coca Cola Zero</div><div class="item-desc">0,33 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Paulaner Spezi</div><div class="item-desc">0,5 l</div></div><div class="item-price">4,80 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">28 Black Acai</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Red Bull</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Red Bull Zero</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Red Bull White Edition</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,20 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Schweppes</div><div class="item-desc">0,33 l • Bitter Lemon, Tonic Water, Ginger Ale, Wildberry</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Apfelsaft</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Orangensaft</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Johannisbeernektar</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Bananennektar</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Maracujanektar</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Kirschnektar</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Ananassaft</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Cranberrysaft</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">KIBA</div><div class="item-desc">Kirsch-Banane • 0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Diverse Schorlen</div><div class="item-desc">0,4 l</div></div><div class="item-price">4,00 €</div></div>
-                </div>
-            </div>
+         <!-- jQuery plugins-->
+        <script src="../assets/js/plugins/plugins.js"></script>
+        <script src="../assets/js/template-custom.js" type="text/javascript"></script>
+        <script src="../assets/js/isotope.pkgd.min.js" type="text/javascript"></script>
+        <script src="../assets/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+        <!-- Libs -->
+        <script src="../../admin/assets/vendor/libs/smartwizard/smartwizard.js"></script>
+        <script src="../../admin/assets/vendor/libs/validate/validate.js"></script>
+        <script src="../priority-nav-scroller-master/docs/scripts/main.js" type="module"></script>
 
-            <!-- Bier -->
-            <div class="section">
-                <h2>Bier</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Heineken</div><div class="item-desc">0,33 l</div></div><div class="item-price">4,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Fürstenberg</div><div class="item-desc">0,33 l • Natur Radler, Grapefruit</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Fürstenberg Alkoholfrei</div><div class="item-desc">0,33 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Desperados</div><div class="item-desc">0,33 l</div></div><div class="item-price">4,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Paulaner Weissbier</div><div class="item-desc">0,5 l • Naturtrüb</div></div><div class="item-price">4,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Cola Weizen</div><div class="item-desc">0,5 l</div></div><div class="item-price">4,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Fürstenberg Pils</div><div class="item-desc">0,3 l / 0,4 l</div></div><div class="item-price">4,00 € / 4,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Radler Süss / Sauer</div><div class="item-desc">0,3 l</div></div><div class="item-price">4,00 €</div></div>
-                </div>
-            </div>
+        <!-- Demo -->
+        <script src="../../admin/assets/js/forms_wizard.js"></script>
+        <script src="../priority-nav-scroller-master/docs/scripts/priority-nav-scroller.js" type="text/javascript"></script>
+        <script src="../priority-nav-scroller-master/src/scripts/priority-nav-scroller-umd.js" type="text/javascript"></script>
+        <script src="../priority-nav-scroller-master/docs/scripts/main.js" type="module"></script>
 
-            <!-- Cocktails -->
-            <div class="section">
-                <h2>Cocktails</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Bacardi Coke</div><div class="item-desc">1,13 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Campari Orange</div><div class="item-desc">1 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Captain Morgan Coke</div><div class="item-desc">1,13 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Havana 3 J. Coke</div><div class="item-desc">1,13 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jack Daniels Coke</div><div class="item-desc">1,13 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jim Beam Coke</div><div class="item-desc">1,13 l</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jägermeister Bull</div><div class="item-desc">1,13 l</div></div><div class="item-price">9,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Licor 43 mit Milch</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Wodka Lemon</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Wodka Wildberry</div></div><div class="item-price">7,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">SKARA</div><div class="item-desc">Zitronensaft, Kirschsaft, Gin, Rohrzuckersirup, Schweppes Wildberry</div></div><div class="item-price">8,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Long Island Iced Tea</div></div><div class="item-price">9,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Sours</div><div class="item-desc">Whiskey, Gin, Vodka, Aperol, Amaretto, 43</div></div><div class="item-price">8,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Sex on the Beach</div></div><div class="item-price">8,50 €</div></div>
-                </div>
-            </div>
+  <!-- Javascript -->
 
-            <!-- Wein -->
-            <div class="section">
-                <h2>Wein</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Weißwein</div><div class="item-desc">Gutedel QbA trocken • 0,1 l / 0,25 l</div></div><div class="item-price">3,00 € / 4,80 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Rotwein</div><div class="item-desc">Spätburgunder Rotwein QbA trocken • 0,1 l / 0,25 l</div></div><div class="item-price">3,50 € / 5,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Rosé</div><div class="item-desc">Spätburgunder Weissherbst QbA trocken • 0,1 l / 0,25 l</div></div><div class="item-price">3,50 € / 5,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Weinschorle Weiss</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Weinschorle Rot</div><div class="item-desc">0,25 l</div></div><div class="item-price">4,00 €</div></div>
-                </div>
-            </div>
+        <script>
 
-            <!-- Schnaps & Spezialitäten -->
-            <div class="section">
-                <h2>Schnaps & Spezialitäten</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Sierra Tequila</div><div class="item-desc">Silver, Reposado</div></div><div class="item-price">2,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Aperol Spritz</div></div><div class="item-price">6,90 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Lillet White Peach</div></div><div class="item-price">6,90 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Lillet Wildberry</div></div><div class="item-price">6,90 €</div></div>
-                </div>
-            </div>
 
-            <!-- Spirits -->
-            <div class="section">
-                <h2>Spirituosen</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Baileys Irish Cream</div><div class="item-desc">4 cl</div></div><div class="item-price">5,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Disaronno Amaretto</div><div class="item-desc">4 cl</div></div><div class="item-price">5,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Frangelico</div><div class="item-desc">4 cl</div></div><div class="item-price">5,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Moet & Chandon Brut Impérial</div><div class="item-desc">0,75 l</div></div><div class="item-price">120,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Moet & Chandon Ice Rose Impérial</div><div class="item-desc">0,75 l</div></div><div class="item-price">160,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Three Sixty</div><div class="item-desc">0,7 l</div></div><div class="item-price">90,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Grey Goose</div><div class="item-desc">0,7 l</div></div><div class="item-price">130,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Belvedere Pur Vodka</div><div class="item-desc">0,7 l</div></div><div class="item-price">130,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Bombay Sapphire</div><div class="item-desc">0,7 l</div></div><div class="item-price">90,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Hendricks Gin</div><div class="item-desc">0,7 l</div></div><div class="item-price">100,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Monkeys 47 Dry Gin</div><div class="item-desc">0,5 l</div></div><div class="item-price">90,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jim Beam</div><div class="item-desc">0,7 l</div></div><div class="item-price">70,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jack Daniels</div><div class="item-desc">0,7 l</div></div><div class="item-price">100,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Chivas Regal 12 Years</div><div class="item-desc">4 cl</div></div><div class="item-price">5,50 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Jack Daniels</div><div class="item-desc">4 cl</div></div><div class="item-price">5,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Laphroaig 10 Years</div><div class="item-desc">4 cl</div></div><div class="item-price">7,00 €</div></div>
-                </div>
-            </div>
+            $(document).ready(function () {
+                if ($('.menu-filter-items').length) {
+                    /*var $galleryFilter = $('.menu-filter-items').isotope({
+                        itemSelector: '.menu-item',
+                        masonry: {
+                            columnWidth: '.menu-item'
+                        }
+                    });
 
-        </div>
+                    $('.menu-filter-list').on('click', 'li', function () {
+                        var filterValue = $(this).attr('data-filter');
+                        $('.menu-filter-list').find('.is-checked').removeClass('is-checked');
+                        $(this).addClass('is-checked');
+                        $galleryFilter.isotope({filter: filterValue});
+                    });
 
-        <!-- Shisha Content -->
-        <div id="content-shisha" class="tab-content hidden">
-            <div class="section visible">
-                <h2>Shisha</h2>
-                <div class="space-y-1">
-                    <div class="item"><div class="item-details"><div class="item-name">Love 66</div><div class="item-desc">Wasser- und Honigmelone mit Maracuja</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Drei Mal im Leben</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">African Queen</div><div class="item-desc">Früchtemix</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Black Nana</div><div class="item-desc">Schwarze Traube</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Persischer Apfel</div><div class="item-desc">Grüner Apfel (ohne Anis geschmack)</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">FFM / 069</div><div class="item-desc">Erdbeere und Waldbeere Menthol</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Okolom Cranberry</div><div class="item-desc">Cranberry, Holunder, Ingwer und Zitrone</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Blaulicht</div><div class="item-desc">Blaubeeren und Beerenmix</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Hamburg</div><div class="item-desc">Erdbeere, Himbeere, Blaubeere, Johannisbeere und Brombeere</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">I love Hamburg</div><div class="item-desc">Beerenmix mit Wasser- und Honigmelone</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Black Box</div><div class="item-desc">Acai, Guarana und Zitrone</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Sparkling Peaz</div><div class="item-desc">Pfirsich Eistee</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">Le Chill</div><div class="item-desc">Zitrone und Minze</div></div><div class="item-price">15,00 €</div></div>
-                    <div class="item"><div class="item-details"><div class="item-name">WaMe Chill</div><div class="item-desc">Wassermelone und Minze</div></div><div class="item-price">15,00 €</div></div>
-                </div>
-            </div>
-        </div>
+                    $galleryFilter.imagesLoaded().progress(function () {
+                        $galleryFilter.isotope('layout');
+                    });*/
+                        
+                        var $galleryFilter = $('#divMenuContainer').isotope({
+                        itemSelector: '.menu-filter-items',
+                        filter: '.Getränke',
+                        masonry: {
+                            columnWidth: '.menu-filter-items'
+                        }
+                    });
 
-    </div>
+                    $('.nav-scroller-content').on('click', 'li', function () {
+                        var filterValue = $(this).attr('data-filter');
+                        $('.nav-scroller-content').find('.is-checked').removeClass('is-checked');
+                        $(this).addClass('is-checked');
+                        $galleryFilter.isotope({filter: filterValue});
+                    });
 
-    <!-- Footer -->
-    <div class="footer mt-20">
-        <p>Preise inkl. MwSt. • Änderungen vorbehalten • Genuss verantwortungsvoll</p>
-        <p class="mt-2 text-[10px] opacity-50">Erstellt mit ❤️ für Bar 1989</p>
-    </div>
-
-    <script>
-        // Parallax Effect
-        function parallax() {
-            const layers = document.querySelectorAll('.parallax-layer');
-            window.addEventListener('scroll', () => {
-                const scrollY = window.scrollY * 0.2;
-                layers.forEach(layer => {
-                    layer.style.transform = `translateY(${scrollY}px)`;
-                });
+                    $galleryFilter.imagesLoaded().progress(function () {
+                        $galleryFilter.isotope('layout');
+                    });
+                }
             });
-        }
 
-        // Tab Switching
-        let currentTab = 0;
-        function switchTab(tab) {
-            currentTab = tab;
-            document.querySelectorAll('.tab').forEach((t, i) => {
-                t.classList.toggle('tab-active', i === tab);
-            });
-            document.getElementById('content-drinks').classList.toggle('hidden', tab !== 0);
-            document.getElementById('content-shisha').classList.toggle('hidden', tab === 0);
+            /* $(window).scroll(function(e){ 
+  var $el = $('.nav-scroller'); 
+  var isPositionFixed = ($el.css('position') == 'fixed');
+  if ($(this).scrollTop() > 200 && !isPositionFixed){ 
+    $el.css({'position': 'fixed', 'top': '0px'}); 
+  }
+  if ($(this).scrollTop() < 200 && isPositionFixed){
+    $el.css({'position': 'static', 'top': '0px'}); 
+  } 
+}); */
+        </script>
 
-            // Animate sections
-            document.querySelectorAll('.section').forEach(sec => {
-                sec.classList.remove('visible');
-                setTimeout(() => sec.classList.add('visible'), 50);
-            });
-        }
 
-        // Intersection Observer für Scroll Animation
-        function animateOnScroll() {
-            const sections = document.querySelectorAll('.section');
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                    }
-                });
-            }, { threshold: 0.3 });
-
-            sections.forEach(sec => observer.observe(sec));
-        }
-
-        // Init
-        window.onload = () => {
-            parallax();
-            animateOnScroll();
-            console.log('🚀 Bar 1989 Menu geladen – 1:1 mit Parallax & Tabs!');
-        };
-    </script>
-</body>
+    </body>
 </html>
